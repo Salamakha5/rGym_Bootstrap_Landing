@@ -1,0 +1,189 @@
+header{
+    height:max-content;
+    padding-bottom: 10px;
+    height:100vh;
+    background-image: url(../img/Rectangle\ 464.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+*{
+    color: aliceblue;
+}
+nav{
+    opacity: 0.9;
+    background-color: #000000;
+    width: 100%;
+    z-index: 10;
+    box-shadow:120px 10px 10px #000000;
+}
+.fullWindow_container{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.25) 10.06%, #000000 20%);
+}
+.a_navbar{
+    text-decoration: none;
+    color:gray;
+    margin: 0px 10px;
+    transition: 0.7s;
+    border-bottom: 1px solid black;
+}
+.a_navbar:hover{
+    border-bottom: 1px solid rgb(208, 195, 177);
+    transition: 0.7s;
+    color: rgb(208, 195, 177);
+}
+.button-1{
+    background-color:rgba(169, 42, 29, 1);
+    padding:10px 17px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family:monospace;
+    font-weight: 100;
+    margin-left: 20px;
+
+}
+.header_main{
+    height: 100%;
+    position: relative;
+}
+.redline{
+    width: 20%;
+    margin: 40px;
+    border-top: 2px solid brown;
+}
+.fs{
+    font-size: 60px;
+    font-weight: 700;
+}
+.text-brown{
+    color: brown;
+}
+.button-2{
+    background-color: brown;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 20px;
+}
+.PrevNext_cont{
+    transform: rotate(90deg);
+}
+.trans90{
+    transform: rotate(270deg);
+    margin: 10px;
+
+}
+.textPrevNext{
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav{
+    position: relative;
+}  
+.burgerMenu_container{
+    position: absolute;
+    background-color: #000000;
+    color: aliceblue;
+    z-index: 22222;
+}
+.ScrollDown{
+   font-size: 20px;
+   font-weight: 900;
+   font-family: 'Courier New', Courier, monospace;
+   text-decoration: none;
+   color: aliceblue;
+   position: absolute;
+   bottom: -0px;
+   left: 0px;
+    transform: rotate(90deg);
+}
+.Scroll_img{
+    transform: rotate(270deg);
+    width: 15px;
+    margin-left: 10px;
+}
+.pop{
+    font-family: Montserrat;
+font-size: 48px;
+font-weight: 600;
+line-height: 59px;
+color: aliceblue;
+text-align: center;
+
+}
+.textmin{
+    max-width: 800px;
+}
+.imgHover{
+    filter: grayscale(100%); 
+    transition: 0.4s;
+}
+.imgHover:hover{
+    transition: 0.4s;
+    filter: grayscale(0%); 
+}
+
+.w-min{
+    width: min-content;
+}
+.bordered{
+    border-left: 2px solid brown;
+}
+
+.imgpos_cont{
+    position: relative;
+}
+.imgposition{
+    position: absolute;
+    bottom: -200px;
+    display: flex;
+
+    justify-content: end;
+}
+.w-10{
+    width: 30%;
+}
+.email_container{
+    background-image: url(../img/emailBg.png);
+    background-size: 120% 120%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.emailInput{
+    border: 2px solid whitesmoke;
+    padding: 10px 1px;
+    text-align: center;
+    background-color:black;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+.emailButton{
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    padding: 10px 1px;
+    text-align: center;
+    color: #000000;
+    background-color:whitesmoke;
+    transition: 0.5s;
+    
+}
+.emailButton:hover{
+    transition: 0.5s;
+    color:whitesmoke;
+    background-color:#000000;
+
+}
+.boxIcons{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+@media(min-width:1000px){
+    header{
+        background-size: 100% 100%;
+    }
+}
